@@ -1,0 +1,70 @@
+body{
+    font-weight: bold;
+}
+
+.contact-container {
+    position: relative;
+    width: 60vw;
+    margin: 15vh auto 5vh auto;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #C5BAFF;
+}
+
+.contact-form {
+    position: relative;
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.form-group label {
+    margin-bottom: 1vh;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #C5BAFF;
+    border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-left: 1vw;
+}
+
+button[type="submit"] {
+    background-color: #C4D9FF;
+    color: white;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #C5BAFF;
+}
+
+.direct-contact {
+    position: relative;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.email-link {
+    color: #C5BAFF;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}

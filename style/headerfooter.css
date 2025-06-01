@@ -1,0 +1,100 @@
+header {
+    height: 10vmin;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    line-height: 10vmin;
+    z-index:1000;
+}
+
+header img {
+    max-height: 10vmin;
+    width: auto;
+    float: left;
+}
+
+header h3{
+    float: right;
+    margin: 0 20px;
+    font-size: 3vmin;
+    font-weight: bold;
+    font-family: "Agency FB";
+    text-decoration: none;
+    color: black;
+}
+
+header h3:hover{
+    color: #C5BAFF;
+}
+
+.search-container {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.search-container input {
+    border-radius: 10px 0 0 10px;
+    border-color: black;
+    padding: 1vmin;
+    font-size: 2vmin;
+    width: 20vmin;
+}
+
+.search-container button {
+    border-radius: 0 10px 10px 0;
+    border-color: black;
+    padding: 1vmin;
+    font-size: 2vmin;
+}
+
+.search-container button:hover, .search-container input:hover{
+    border-color: #C4D9FF;
+    background-color: #C5BAFF;
+    color: black;
+}
+
+body{
+    background-color: #E8F9FF;
+    margin:0;
+    padding: 0;
+    bottom:0;
+    align-items: center;
+    font-size: x-large;
+    min-height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 10vh; /* Height of footer */
+}
+
+.content {
+    position: relative;
+    padding-bottom: 5vh;
+}
+
+footer{
+    font-weight: bold;
+    width: 100%;
+    bottom:0;
+    left:0;
+    background-color: #C5BAFF;
+    color: white;
+    text-align: center;
+    padding: 1vh 0;
+}
+
+
+footer p:first-child::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: white;
+    margin: 1vh auto;
+}

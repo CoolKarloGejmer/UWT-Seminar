@@ -1,0 +1,117 @@
+.aboutme{
+    position:relative;
+    margin-top: 15vmin;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50vw;
+    min-height: 50vh;
+    border-radius: 20px;
+    border: 2px solid #C5BAFF;
+    border-style: dashed;
+    background: #FBFBFB;   
+}
+
+.actualme{
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5vmin;
+    padding-left: 1.5vmin;
+    position:absolute;
+    width: 15vw;
+    height: 50vh;
+}
+
+.actualme h1:hover, .actualme h3:hover{
+    color:#C5BAFF;
+}
+
+.actualme img{
+    height: auto;
+    width: 100%;
+}
+
+.textme{
+    position: absolute;
+    left: 20vw;
+    right: 5vw;
+    top: 5vh;
+}
+
+.tvz{
+    position:relative;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.tvz h1{
+    background-color: #E8F9FF;
+    letter-spacing: 2vw;
+    text-align: center;
+    position: relative;
+    font-size: 10vmin;
+    color: #C5BAFF;
+    margin-right: 10vw;
+}
+
+.tvz p{
+    text-align: right;
+    position: relative;
+    color: black;
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: 47vw;
+}
+
+.tvz img{
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-right:20vw;
+    width: 25vw;
+}
+
+.credits{
+    z-index: 1;
+    margin-left: 2vw;
+    position: absolute;
+    max-width: 23vw;
+    border-radius: 5px;
+    border-color: #C5BAFF;
+    padding:20px;
+    border-style:dashed;
+}
+
+.credits li{
+    list-style: none;
+    margin-left: -2vw;
+    margin-bottom: 10px;
+}
+
+.tvzlogo{
+    position: absolute;
+    right:0; 
+    overflow:hidden;
+}
+
+.tvzlogo img{
+    width: 20vw;
+    height: auto;
+    margin-right:-13.5vw;
+    transition: all 1.5s;
+}
+
+.tvzlogo img:hover{
+    width: 25vw;
+    margin-right: -17vw;
+    transition: 1s;
+}
+
+.tvzlogo img:active {
+    margin-right: 0vw;
+    transition: 1s;
+}
+
+iframe{
+    padding-left:10vw;
+}
