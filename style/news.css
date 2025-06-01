@@ -37,6 +37,7 @@
 
 #post:hover p {
     font-size: 1.2rem;
+    transition: all 0.4s;
 }
 
 #post:hover {
@@ -79,7 +80,7 @@
 
 .category:hover{
     background-color: #E8F9FF;
-    color:#C5BAFF
+    color:#C5BAFF;
 }
 
 .read-more {
