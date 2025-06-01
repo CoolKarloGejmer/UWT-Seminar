@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('../images/pattern.jpg');
     background-size: cover;
     background-position: center;
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     position: fixed;
     display: flex;
@@ -60,7 +60,47 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     padding: 2rem;
     text-align: center;
-    border-radius: 10px;
+    font-size: 2vmax;
+}
+
+.discounted-products-container{
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+    .title-discounted{
+        display: flex;
+        justify-content: space-between;
+
+        .title-hot{
+            display: flex;
+        }
+
+        .title-hot i{
+            padding-left: 0.5vw;
+            font-size: 3vmax;
+        }
+    }
+
+    .title-discounted h1{
+        letter-spacing: 0.25vw;
+        font-size: 3vmax;
+    }
+
+    .discounted-products{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.hr-line{
+    width: 80%;
+    border: 2px solid rgb(200, 0, 0);
+    border-radius: 20px;
 }
 
 
@@ -76,9 +116,9 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 1 300px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     transition: transform 0.3s ease;
@@ -96,8 +136,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
 }
 
-.price-container {
-    margin: 1rem 0;
+.products-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 .price {
@@ -139,17 +182,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.1rem;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
-    .banner {
-        height: 200px;
+    main {
+        margin-top: 27vh; 
     }
 
-    .banner-content {
-        padding: 1rem;
+    .discounted-products-container{
+        .title-discounted{
+            display: flex;
+            flex-direction: column;
+        }
+        .discounted-products{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
-    .product {
-        flex: 0 1 100%;
+    .products-container{
+        flex-direction: row;
+    }
+    .product{
+        flex: 0 1 220px;
     }
 }
